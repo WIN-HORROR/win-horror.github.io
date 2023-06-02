@@ -9,10 +9,10 @@ nav:
 
 # Menu 目錄
 menu:
-  首页: / || iconfont icon-shouye
-  归档: /archives/ || iconfont icon-guidang
-  标签: /tags/ || iconfont icon-biaoqian
-  分类: /categories/ || iconfont icon-fenlei
+  首页: / || fas fa-house
+  归档: /archives/ || fas fa-box-archive
+  标签: /tags/ || fas fa-tag
+  分类: /categories/ || fas fa-folder-open
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -28,9 +28,9 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  iconfont icon-github: https://github.com/WIN-HORROR || Github
-  iconfont icon-mail-fill: admin@win-horror.eu.org || 邮箱
-  iconfont icon-bilibili: https://space.bilibili.com/1357155193 || 哔哩哔哩
+  fab fa-github: https://github.com/WIN-HORROR || Github
+  fas fa-envelope: admin@win-horror.eu.org || 邮箱
+  fab fa-bilibili: https://space.bilibili.com/1357155193 || 哔哩哔哩
 # Image (圖片設置)
 # --------------------------------------
 
@@ -672,7 +672,7 @@ canvas_fluttering_ribbon:
   enable: false
   mobile: false
 
-# canvas_nest
+# canvas_nes
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
   enable: false
@@ -893,7 +893,6 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <link rel="stylesheet" href="/css/font.css">
   bottom:
     # - <script src="xxxx"></script>
 
