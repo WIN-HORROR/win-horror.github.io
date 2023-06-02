@@ -224,7 +224,7 @@ aside:
     description:
     button:
       enable: true
-      icon: iconfont icon-github
+      icon: fab fa-github
       text: 看看我的Github
       link: https://github.com/WIN-HORROR
   card_announcement:
