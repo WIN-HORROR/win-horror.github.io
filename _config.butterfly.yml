@@ -28,9 +28,9 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  iconfont icon-github: https://github.com/WIN-HORROR || Github
-  iconfont icon-mail-fill: admin@win-horror.eu.org || 邮箱
-  iconfont icon-bilibili: https://space.bilibili.com/1357155193 || 哔哩哔哩
+  iconfont icon-github card_icon: https://github.com/WIN-HORROR || Github
+  iconfont icon-mail-fill card_icon: admin@win-horror.eu.org || 邮箱
+  iconfont icon-bilibili card_icon: https://space.bilibili.com/1357155193 || 哔哩哔哩
 # Image (圖片設置)
 # --------------------------------------
 
@@ -893,7 +893,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <link rel="stylesheet" href="/icons/iconfont.css"
+    - <link rel="stylesheet" href="/css/iconfont.css">
   bottom:
     # - <script src="xxxx"></script>
 
