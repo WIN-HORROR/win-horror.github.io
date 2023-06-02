@@ -1,0 +1,11 @@
+.github/
+node_modules/
+yarn.lock
+icons.zip
+themes/butterfly/.github
+.DS_Store
+Thumbs.db
+db.json
+*.log
+public/
+.deploy*/
